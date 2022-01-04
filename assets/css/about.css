@@ -1,0 +1,199 @@
+body{
+  font-family: "Open Sans", sans-serif;
+  color: #000;
+  
+}
+.navbar-toggler{
+  color: white;
+  font: 25px;
+  border: 2px solid transparent;
+}
+.nav-item ,.nav-link{
+  text-align: center;
+  }
+a{
+  color:#000
+}
+a:hover{
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar-collapse{
+  flex-grow: initial;
+}
+.purple-bg{
+  background: -webkit-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -o-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -ms-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -moz-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: linear-gradient(125deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+
+  height: 300px;
+}
+.signup {
+  background: #f0eafa;
+  color: #8a1ee5;
+  border-radius: 3rem !important;
+  font-weight: 600;
+}
+.purple-text {
+  color:  #563175;
+  font-weight: 600;
+}
+.midpara{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+footer p {
+  font-weight: 600;
+}
+.purple-bg1{
+  background: -webkit-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -o-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -ms-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -moz-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: linear-gradient(125deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+
+}
+
+footer a {
+  color: #000 !important;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+ul li {
+  list-style: none;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#8a1ee5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  /*width: 100%;*/
+  opacity: 0.9;
+  border-radius: 15px 30px 15px 30px;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+@media only screen and (max-width: 600px) {
+  section h1,
+  .h1 {
+      font-size: 2rem;
+  }
+
+  .purple-bg .custom-size {
+      width: 100%;
+  }
+
+  .cry-icon-img {
+      padding: 0 !important;
+  }
+
+  .inbox-img {
+      width: 100% !important;
+      margin-bottom: 1rem !important;
+  }
+}
+@font-face {
+  font-family: 'freesans';
+  src: url(//https://d2yacgsewck3tp.cloudfront.net/fonts/freesans/FreeSans.woff2) format("woff2"), url(//https://d2yacgsewck3tp.cloudfront.net/fonts/freesans/FreeSansBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+.cancelbtn, .signupbtn {
+   width: 100%;
+}
+}

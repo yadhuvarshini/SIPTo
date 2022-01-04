@@ -1,0 +1,78 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    
+}
+.navbar-toggler{
+    color: white;
+    font: 25px;
+    border: 2px solid transparent;
+}
+.nav-item ,.nav-link{
+    text-align: center;
+    }
+a{
+    color:#000
+}
+a:hover{
+    color: #000;
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+.navbar-collapse{
+    flex-grow: initial;
+}
+.purple-bg{
+    background: -webkit-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+    background: -o-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+    background: -ms-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+    background: -moz-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+    background: linear-gradient(125deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+    
+    max-height: auto;
+}
+.purple-bg1{
+    background: -webkit-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -o-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -ms-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: -moz-linear-gradient(325deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+background: linear-gradient(125deg, rgb(208, 157, 255) 0%, rgb(138, 30, 229) 1%, rgb(64, 37, 126) 56%, rgb(43, 36, 81) 96%, rgb(35, 28, 72) 100%);
+
+    
+}
+
+footer a {
+    color: #000 !important;
+}
+.box-center{
+    justify-content: center;
+}
+@font-face {
+    font-family: 'freesans';
+    src: url(//https://d2yacgsewck3tp.cloudfront.net/fonts/freesans/FreeSans.woff2) format("woff2"), url(//https://d2yacgsewck3tp.cloudfront.net/fonts/freesans/FreeSansBold.ttf) format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap
+}
+@media only screen and (max-width: 600px) {
+    section h1,
+    .h1 {
+        font-size: 2rem;
+    }
+
+    .purple-bg .custom-size {
+        width: 100%;
+    }
+
+    .cry-icon-img {
+        padding: 0 !important;
+    }
+
+    .inbox-img {
+        width: 100% !important;
+        margin-bottom: 1rem !important;
+    }
+}

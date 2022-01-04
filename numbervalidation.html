@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript">
+    function validateForm() {
+        return checkPhone();
+    }
+    function checkPhone() {
+        var phone = document.forms["myForm"]["phone"].value;
+        var phoneNum = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/; 
+            if(phone.value.match(phoneNum)) {
+                return true;
+            }
+            else {
+                document.getElementById("phone").className = document.getElementById("phone").className + " error";
+                return false;
+            }
+        }
+</script>
+    
+</head>
+<body>
+    <form name="myForm" onsubmit = "return validateForm()">
+        Phone Number: <input type="text" id="phone"><br>
+    </form>
+</body>
+</html>

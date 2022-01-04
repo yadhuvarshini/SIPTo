@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #dialog
+       {
+           height: 200px;
+           width: 200px;
+           background-color: #c8c8c8;
+           border: 1px solid black;
+           position: fixed;
+           top: 50%;
+           margin-top: -100px;
+           left: 50%;
+           margin-left: -100px;
+           display: none;
+           padding: 20px;
+       }
+    </style>
+</head>
+<body>
+    mgkofngtjngut4jnfgkgnfgijrhgiuhr ,mcdl,mmal;sNSMS DNKEBFIEHWUHNJXBSNBHJSDHGVDCBNDVBDKBFRIHFKJFNDMCDMDLKFJBFVHJFD
+    
+    <div id="dialog" style="display: none">
+        <div style="height: 170px">
+            This is a simple popup
+        </div>
+        <div>
+            <span  önclick="Close()">click to Close</span></div>
+    </div>
+
+</body>
+<script>
+    $(document).ready(function () {
+
+setTimeout(function () { $("#dialog").fadeIn(); }, 15000)
+
+});
+
+function Close() {
+$("#dialog").fadeOut();
+}
+</script>
+</html>
+
+
+
+
+<head>
+    <script type="text/javascript">
+        $(document).ready(function(){
+    
+            openFancybox();
+            $('#various1').fancybox();
+        });
+        function openFancybox() {
+            setTimeout( function() {$('#various1').trigger('click'); },5000);
+        }
+    </script>
+    </head>
+    
+    <body>
+    <a id="various1" href="#target"></a>
+    <div style="display: none;">
+     <div id="target">welcome to shoesdekho.com</div>
+    </div>
+    </body>
